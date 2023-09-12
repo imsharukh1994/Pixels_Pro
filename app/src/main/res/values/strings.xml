@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Pixels Pro</string>
+    <string name="subreddits_input">Subreddits</string>
+    <string name="preview_quality">Image preview quality</string>
+    <string name="defualt_subreddi">wallpaper</string>
+
+    <string-array name="preview_quality">
+        <item>very low</item>
+        <item>low</item>
+        <item>medium</item>
+        <item>high</item>
+        <item>very high</item>
+        <item>ultra</item>
+    </string-array>
+
+
+    <string-array name="TimePeriod">
+        <item>now</item>
+        <item>today</item>
+        <item>week</item>
+        <item>month</item>
+        <item>year</item>
+        <item>all</item>
+    </string-array>
+
+    <string-array name="wallhaven_sortlist">
+        <item>Relevance</item>
+        <item>Random</item>
+        <item>Date_added</item>
+        <item>Views</item>
+        <item>Favorites</item>
+        <item>Toplist</item>
+        <item>Hot</item>
+    </string-array>
+
+    <string-array name="wallhavenTimePriod">
+        <item>day</item>
+        <item>3 days</item>
+        <item>week</item>
+        <item>month</item>
+        <item>3 months</item>
+        <item>6 months</item>
+        <item>year</item>
+    </string-array>
+
+    <string-array name="wallpaperChangerTime">
+        <item>min</item>
+        <item>hour</item>
+        <item>day</item>
+    </string-array>
+    <string-array name="screens">
+        <item>HomeScreen</item>
+        <item>LockScreen</item>
+        <item>Both</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tag">tagActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="imageLinkUrl"><u>Source</u></string>
+    <string name="wallpaper_changer_des">Automatically change the wallpaper from the favorite wallpaper list. minimum time is 15m and it might not work on battery mode</string>
+</resources>

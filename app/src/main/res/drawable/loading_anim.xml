@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    >
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="48dp"
+            android:height="48dp"
+            android:viewportWidth="500"
+            android:viewportHeight="500">
+
+            <group
+                android:name="path"
+                android:translateX="0"
+                android:translateY="0">
+                <path
+                    android:pathData="M 250 121.281 L 306.959 178.241 L 250 235.2 L 193.041 178.241 Z"
+                    android:fillColor="#ffd369"
+                    />
+            </group>
+
+            <group
+                android:name="path_1"
+                android:translateX="0"
+                android:translateY="0">
+            <path
+                android:pathData="M 250 261.992 L 306.959 318.951 L 250 375.911 L 193.041 318.951 Z"
+                android:fillColor="#ffd369"/>
+            </group>
+            <group
+                android:name="path_2"
+                android:translateX="0"
+                android:translateY="0">
+            <path
+                android:pathData="M 324.264 193.041 L 381.223 250 L 324.264 306.959 L 267.304 250 Z"
+                android:fillColor="#ffd369"/>
+            </group>
+            <group
+                android:name="path_3"
+                android:translateX="0"
+                android:translateY="0">
+            <path
+                android:pathData="M 178.668 193.041 L 235.627 250 L 178.668 306.959 L 121.708 250 Z"
+                android:fillColor="#ffd369"/>
+            </group>
+
+        </vector>
+    </aapt:attr>
+    <target android:name="path">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:duration="1000"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"
+                android:repeatCount="infinite"
+                android:repeatMode="restart"
+                >
+                <propertyValuesHolder android:propertyName="translateX">
+                    <keyframe
+                        android:fraction="0"
+                        android:value="0.0" />
+
+                    <keyframe
+                        android:fraction="0.6"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.8"
+                        android:value="-71" />
+
+                    <keyframe
+                        android:fraction="1"
+                        android:value="-71" />
+                </propertyValuesHolder>
+                <propertyValuesHolder android:propertyName="translateY">
+                    <keyframe
+                        android:fraction="0.0"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.6"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.8"
+                        android:value="71" />
+
+                    <keyframe
+                        android:fraction="1"
+                        android:value="71" />
+                </propertyValuesHolder>
+            </objectAnimator>
+        </aapt:attr>
+    </target>
+    <target android:name="path_1">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:duration="1000"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"
+                android:repeatCount="infinite"
+                android:repeatMode="restart"
+                >
+                <propertyValuesHolder android:propertyName="translateX">
+                    <keyframe
+                        android:fraction="0"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.2"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.4"
+                        android:value="74" />
+                    <keyframe
+                        android:fraction="1"
+                        android:value="74" />
+                </propertyValuesHolder>
+                <propertyValuesHolder android:propertyName="translateY">
+                    <keyframe
+                        android:fraction="0.0"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.2"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.4"
+                        android:value="-69" />
+                    <keyframe
+                        android:fraction="1.0"
+                        android:value="-69" />
+                </propertyValuesHolder>
+            </objectAnimator>
+        </aapt:attr>
+    </target>
+    <target android:name="path_2">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:duration="1000"
+                android:valueType="floatType"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:repeatCount="infinite"
+                android:repeatMode="restart"
+                >
+                <propertyValuesHolder android:propertyName="translateX">
+
+                    <keyframe
+                        android:fraction="0.0"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.2"
+                        android:value="-74" />
+                    <keyframe
+                        android:fraction="1"
+                        android:value="-74" />
+                </propertyValuesHolder>
+                <propertyValuesHolder android:propertyName="translateY">
+
+                    <keyframe
+                        android:fraction="0.0"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.2"
+                        android:value="-72" />
+                    <keyframe
+                        android:fraction="1.0"
+                        android:value="-72" />
+                </propertyValuesHolder>
+            </objectAnimator>
+        </aapt:attr>
+    </target>
+    <target android:name="path_3">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:duration="1000"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"
+                android:repeatCount="infinite"
+                android:repeatMode="restart">
+                <propertyValuesHolder android:propertyName="translateX">
+                    <keyframe
+                        android:fraction="0"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.4"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.6"
+                        android:value="71" />
+                    <keyframe
+                        android:fraction="1"
+                        android:value="71" />
+                </propertyValuesHolder>
+                <propertyValuesHolder android:propertyName="translateY">
+                    <keyframe
+                        android:fraction="0.0"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.4"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.6"
+                        android:value="69" />
+                    <keyframe
+                        android:fraction="1.0"
+                        android:value="69" />
+                </propertyValuesHolder>
+            </objectAnimator>
+        </aapt:attr>
+    </target>
+</animated-vector>

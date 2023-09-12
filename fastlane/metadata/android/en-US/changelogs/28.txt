@@ -1,0 +1,4 @@
+release 2.8:
+  -changed some icons 
+  -disabled wallhaved duo to the limited api
+  -reverted to using the old reddit api duo the recent events 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Favorite_posts_list"
+        android:icon="@drawable/ic_favorite"
+        android:title="" />
+
+    <item android:id="@+id/wallhaven_posts_list"
+        android:icon="@drawable/ic_wallhaven_2"
+        android:title=""/>
+
+    <item android:id="@+id/Reddit_posts_List"
+        android:icon="@drawable/reddit_ic"
+        android:checked="true"
+        android:title=""
+        />
+
+</menu>
