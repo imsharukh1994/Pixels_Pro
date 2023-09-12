@@ -51,8 +51,6 @@ and at the same time have a lot of SFW wallpaper and with a good image quality w
 <img width=100 src="./Images/gif1.gif">
 <img width=100 src="./Images/gif2.gif">
 
-
-
 </div>
 
 
