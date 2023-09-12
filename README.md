@@ -1,12 +1,7 @@
 
 <div align="center">
 
-# Wallme-Wallpaper
-
-
-<img src="./Images/newlogo_512.png" width=200 style="border-radius:20%"/>
-
-
+# Pixels_Pro
 
 
 
