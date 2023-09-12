@@ -55,30 +55,5 @@ and at the same time have a lot of SFW wallpaper and with a good image quality w
 
 </div>
 
-## TODO
-
-
-
-- [x] add favorite page
-- [x] add a progress bar when downloading an image
-- [x] add landscape and portrait mode 
-- [x] add auto wallpaper changer with the user configuration //still work in progress.
-- [x] add support for gif wallpapers
-- [x] add support for video wallpapers
-- [x] add the ability to add images from the device to the favorite page
-
-</br>
-
-## Ideas
-    - set html as wallpaper
-
-
-
-### libraries
-
-    - coil 
-    - okhttp
-    - TouchImageView
-    - zoomlayout
 
 
