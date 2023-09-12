@@ -23,17 +23,6 @@
 
 ## Download
 
-## please dont repost my app on other media
-
-[<img src="./Images/fdroid_downlaod.png" width=200/>](https://f-droid.org/packages/com.alaory.wallmewallpaper/)
-[<img src="./Images/github_download.png" width=200/>](https://github.com/Alaory/WallMe-Wallpaper/releases/latest)
-
-</br>
-
-[<img src="https://niamhshaw.ie/wp-content/uploads/2021/05/Patreon-Button.png" width=150/>](https://www.patreon.com/Alaory)
-
-
-
 </br>
 </br>
 
